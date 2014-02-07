@@ -1,0 +1,312 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name='viewport' content='width=device-width, scale=1.0, maximum-scale=2.7'/> 
+<link rel="stylesheet" media="all and (orientation:portrait)" href="style.css">
+<link rel="stylesheet" media="all and (orientation:landscape)" href="stylelandscape.css">
+
+
+</head>
+<body>
+<div id='slider3' class='swipe'>
+<div class="displayed">
+
+    <div style='display:block'><div class="displayed"><img name="" src="../ws4of42011/ws 1.pdf" alt="" style="background-color:#FFF;"/></div></div>
+    <div style='display:none'><div  class="displayed"><img name="" src="../ws4of42011/ws 2.pdf" alt="" style="background-color:#FFF;"/></div></div>
+    <div style='display:none'><div  class="displayed"><img name="" src="../ws4of42011/ws 3.pdf" alt="" style="background-color:#FFF;"/></div></div>
+    <div style='display:none'><div  class="displayed"><img name="" src="../ws4of42011/ws 4.pdf" alt="" style="background-color:#FFF;"/></div></div>
+    <div style='display:none'><div  class="displayed"><img name="" src="../ws4of42011/ws 5.pdf" alt="" style="background-color:#FFF;"/></div></div>
+    <div style='display:none'><div  class="displayed"><img name="" src="../ws4of42011/ws 6.pdf" alt="" style="background-color:#FFF;"/></div></div>
+    <div style='display:none'><div  class="displayed"><img name="" src="../ws4of42011/ws 7.pdf" alt="" style="background-color:#FFF;"/></div></div>
+    
+    
+  </div>
+</div>
+
+<div id='slider4' class='swipe'>
+<div class="displayed1">
+
+    <div style='display:block'><div id="even"><img name="" src="../ws4of42011/ws 1.pdf" alt="" style="background-color:#FFF;"/></div></div>
+    
+    
+    <div style='display:none'>
+      <img name="" src="../ws4of42011/ws 2.pdf" alt="" style="background-color:#FFF;"/>
+      <img name="" src="../ws4of42011/ws 3.pdf" alt="" style="background-color:#FFF;"/>
+    </div>
+    
+   <div style='display:none'>
+      <img name="" src="../ws4of42011/ws 4.pdf" alt="" style="background-color:#FFF;"/>
+      <img name="" src="../ws4of42011/ws 5.pdf" alt="" style="background-color:#FFF;"/>
+    </div>
+    
+    <div style='display:none'>
+      <img name="" src="../ws4of42011/ws 6.pdf" alt="" style="background-color:#FFF;"/>
+      <img name="" src="../ws4of42011/ws 7.pdf" alt="" style="background-color:#FFF;"/>
+    </div>
+    
+  </div>
+</div>
+
+
+<script src='swipe.js'></script>
+<script>
+new Swipe(document.getElementById('slider'));
+new Swipe(document.getElementById('slider2'));
+var slider3 = new Swipe(document.getElementById('slider3'));
+var slider4 = new Swipe(document.getElementById('slider4'));
+</script>
+
+
+
+<script type="text/javascript">
+  window.addEventListener('orientationchange', setOrientation, false);
+  function setOrientation() {
+     if ( orientation == 0 ) {  
+	var posportrait = slider4.getPos();   
+var n = posportrait;
+
+switch(n)
+{
+case 0:
+ {
+window.mySwipe = new Swipe(document.getElementById('slider3'), 
+  {
+    startSlide: 0,
+  });
+  var n = '';
+}
+  break;
+case 1:
+{
+window.mySwipe = new Swipe(document.getElementById('slider3'), 
+  {
+    startSlide: 1,
+  });
+    var n = '';
+}
+  break;
+ case 2:
+{
+window.mySwipe = new Swipe(document.getElementById('slider3'), 
+  {
+    startSlide: 3,
+  });
+    var n = '';
+}
+  break;
+case 3:
+{
+window.mySwipe = new Swipe(document.getElementById('slider3'), 
+  {
+    startSlide: 5,
+  });
+    var n = '';
+}
+  break;
+     
+  
+default:
+
+{
+window.mySwipe = new Swipe(document.getElementById('slider3'), 
+  {
+    startSlide: 0,
+  });
+} 
+}
+	 
+    }  
+   else if ( orientation == 90 ) 
+      
+{ 
+var poslandscape = slider3.getPos();   
+var n = poslandscape;
+
+
+switch(n)
+{
+case 0:
+ {
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 0,
+  });
+    var n = '';
+}
+  break;
+case 1:
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 1,
+  });
+    var n = '';
+}
+  break;
+ case 2:
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 1,
+  });
+    var n = '';
+}
+  break;
+case 3:
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 2,
+  });
+    var n = '';
+}
+  break;
+  
+case 4:
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 2,
+  });
+    var n = '';
+}
+  break; 
+  
+case 5:
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 3,
+  });
+    var n = '';
+}
+  break; 
+  
+case 6:
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 3,
+  });
+    var n = '';
+
+}
+  break;  
+    
+  
+default:
+
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 0,
+  });
+}
+ 
+}
+   
+    }  
+    else if ( orientation == -90)  { 
+	
+	
+var poslandscape = slider3.getPos();   
+var n = poslandscape;
+
+
+switch(n)
+{
+case 0:
+ {
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 0,
+  });
+    var n = '';
+}
+  break;
+case 1:
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 1,
+  });
+    var n = '';
+}
+  break;
+ case 2:
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 1,
+  });
+    var n = '';
+}
+  break;
+case 3:
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 2,
+  });
+    var n = '';
+}
+  break;
+  
+case 4:
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 2,
+  });
+    var n = '';
+}
+  break; 
+  
+case 5:
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 3,
+  });
+    var n = '';
+}
+  break; 
+  
+case 6:
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 3,
+  });
+    var n = '';
+}
+  break;  
+    
+  
+default:
+
+{
+window.mySwipe = new Swipe(document.getElementById('slider4'), 
+  {
+    startSlide: 0,
+  });
+    var n = '';
+}
+ 
+}
+   
+    }  
+    else if ( orientation == 180)  {  
+    }  
+
+  }
+  </script>
+  
+
+  
+
+
+
+</body> 
+</html> 

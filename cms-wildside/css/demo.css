@@ -1,0 +1,148 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	/* The reset rules */
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	color:#555555;
+	font-size:13px;
+	background: #559FFF;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	width: 100%;
+}
+
+h1{
+	font-size:36px;
+	font-weight:600;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+.headingarge{
+	font-size:40px;
+	font-weight:600;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color:#FFFBF0;
+	height: 80px;
+	margin-bottom: -40px;
+}
+.headingsuperlarge{
+	font-size:300px;
+	font-weight:600;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color:#FFF;
+	height: 40px;
+	line-height: normal;
+	vertical-align: bottom;
+}
+
+h2{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	letter-spacing:1px;
+	padding-left:2px;
+	text-transform:uppercase;
+	white-space:nowrap;
+	margin-top:4px;
+	color:#888888;
+}
+h3{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:15px;
+	font-weight:normal;
+	letter-spacing:1px;
+	padding-left:2px;
+	text-transform:uppercase;
+	white-space:nowrap;
+	margin-top:4px;
+	color:#FFF;
+}
+
+h4{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	padding-left:2px;
+	text-transform:uppercase;
+	white-space:nowrap;
+	margin-top:4px;
+	color:#888888;
+}
+#main p{
+	padding-bottom:8px;
+}
+
+.clear{
+	clear:both;
+}
+
+#main{
+	width:800px;
+	/* Centering it in the middle of the page */
+	margin:60px auto;
+}
+
+.container{
+	margin-top:20px;
+	padding:15px;
+	
+	/* Rounded corners */
+	-moz-border-radius:20px;
+	-khtml-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius:20px;
+}
+
+.err{
+	color:red;
+}
+
+.success{
+	color:#00CC00;
+}
+
+a, a:visited {
+	color:#00BBFF;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a.redlink, a.redlink:visited {
+	color: #FFBF00;
+	text-decoration:none;
+	outline:none;
+	font-size:15px;
+}
+
+a.redlink:hover{
+	text-decoration:underline;
+	font-size:15px;
+}
+
+.tutorial-info{
+	text-align:center;
+	padding:10px;
+}
+.divleftcontainer{
+	width:100%;
+	float:left;
+	clear:both;
+}
+.divleft{
+	width: 100%;
+	float:left;
+	clear:both;
+	height: 120px;
+}
+.divleftbalance{
+	width:100%;
+	float:left;
+	clear:right;
+	text-align: left;
+	padding-left: 120px;
+	height: 60px;
+}

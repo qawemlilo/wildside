@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div.bottombar{ /* bar that runs across the bottom of the menu */
+height: 7px;
+background: #EAEAEA;
+width:980px;
+margin-left:-30px;
+}
+div.bottombar_slide{ /* bar that runs across the bottom of the menu */
+height: 10px;
+background: #FFF;
+width:980px;
+margin-left:-30px;
+opacity:0.7;
+margin-top:-10px;
+z-index:998;
+}
+
+ul.semiopaquemenu{ /* main menu UL */
+	width: 100%; /* padding of the 4 sides of the menu */
+	margin: 0;
+	text-align: left; /* set value to "left", "center", or "right" to align menu accordingly */
+	padding-top: 15px;
+	padding-right: 0;
+	padding-bottom: 8px;
+	padding-left: 0;
+}
+
+ul.semiopaquemenu li{
+display: inline;
+}
+
+ul.semiopaquemenu li a{
+color:#414141;
+padding: 6px 8px 6px 8px; /* padding of the 4 sides of each menu link */
+margin-right: 15px; /* spacing between each menu link */
+text-decoration: none;
+font-size: 12px;
+text-transform: uppercase;
+}
+
+ul.semiopaquemenu li a:hover, ul.semiopaquemenu li a.selected{
+	color: #980303;
+	padding-top: 12px; /* large padding to get menu item to protrude upwards */
+	padding-bottom: 10px; /* large padding to get menu item to protrude downwards */
+	font-size: 12px;
+	text-transform: uppercase;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #980303;
+}
+
+ul.semiopaquemenu li #active {
+	color: #980303;
+	padding-top: 12px; /* large padding to get menu item to protrude upwards */
+	padding-bottom: 10px; /* large padding to get menu item to protrude downwards */
+	font-size: 12px;
+	text-transform: uppercase;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #980303;
+}
+
+
+
+
+
+

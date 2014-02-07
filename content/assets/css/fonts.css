@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-Light-webfont.eot');
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansLightItalic';
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-LightItalic-webfont.eot');
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-Regular-webfont.eot');
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansItalic';
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-Italic-webfont.eot');
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Italic-webfont.woff') format('woff'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-Semibold-webfont.eot');
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansSemiboldItalic';
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-Bold-webfont.eot');
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansBoldItalic';
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-BoldItalic-webfont.eot');
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-BoldItalic-webfont.woff') format('woff'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansExtrabold';
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-ExtraBold-webfont.eot');
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-ExtraBold-webfont.svg#OpenSansExtrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansExtraboldItalic';
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-ExtraBoldItalic-webfont.eot');
+    src: url('http://www.wildsidesa.co.za/fonts/OpenSans-ExtraBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'),
+         url('http://www.wildsidesa.co.za/fonts/OpenSans-ExtraBoldItalic-webfont.svg#OpenSansExtraboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+h1  {
+	
+	margin-bottom: -12px;
+	color:#585858;
+    font: 26px/28px  'OpenSansRegular', Helvetica, Arial, sans-serif;
+	padding-left:15px;
+	padding-right:15px;
+	
+}
+
+h2 {
+	color: #C63;
+	margin-bottom: 10px;
+	font: 21px/25px  'OpenSansRegular', Helvetica, Arial, sans-serif;
+	padding-left:15px;
+	padding-right:15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EAEAEA;
+	padding-bottom: 5px;
+}
+
+
+h3 {
+	color:#333;
+	font: 20px/21px  'OpenSansSemibold', Helvetica, Arial, sans-serif;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom: 3px;
+}
+h3.white {
+	color:#FEFEFE;
+	padding:12px;
+	font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+.grey{
+	color:#D5D5D5;
+}
+h4 {
+	margin-top: 0px;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	margin-bottom: 10px;
+	color: #333;
+	font: 16px/22px  'OpenSansRegular', Helvetica, Arial, sans-serif;
+	padding-left:15px;
+	padding-right:15px;
+	
+}
+h5 {
+	color:#DC4F00;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom: 3px;
+	margin-top:3px;
+	margin-bottom:3px;
+	font-family: 'OpenSansSemibold', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: normal;
+}
+h6 {
+	color:#333;
+	font: 8px/9px  'OpenSansSemibold', Helvetica, Arial, sans-serif;
+	padding-left:15px;
+	padding-right:15px;
+	}
+
+p {
+	color: #333;
+	font: 14px/19px  'OpenSansLight', Helvetica, Arial, sans-serif;
+	padding-left:15px;
+	padding-right:15px;
+	
+}
+p .bold {
+	color: #333;
+	font: 14px/19px  'OpenSansSemibold', Helvetica, Arial, sans-serif;
+}
+
+strong { color: #333;
+	font: 14px/19px  'OpenSansSemibold', Helvetica, Arial, sans-serif;}
+
+
+a{text-decoration:none;}

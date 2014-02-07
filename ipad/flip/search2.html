@@ -1,0 +1,53 @@
+<script type="text/javascript">
+// function create GetXmlHttpObject
+function GetXmlHttpObject()
+{
+if (window.XMLHttpRequest)
+  {
+  // code for IE7+, Firefox, Chrome, Opera, Safari
+  return new XMLHttpRequest();
+  }
+if (window.ActiveXObject)
+  {
+  // code for IE6, IE5
+  return new ActiveXObject("Microsoft.XMLHTTP");
+  }
+return null;
+}
+
+
+function submitFormWithAjax(){
+	var myAjaxPostrequest=new GetXmlHttpObject();
+
+	var t2lFuser=document.myContactForm.user.value;
+	var t2lLedition=document.myContactForm.edition.value;
+	
+
+	var parameters="user="+t2lFuser+"&edition="+t2lLedition;
+
+	myAjaxPostrequest.open("POST", "getsearch2.php", true);
+	myAjaxPostrequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	myAjaxPostrequest.send(parameters);
+	myAjaxPostrequest.onreadystatechange=function(){
+   	if(myAjaxPostrequest.readyState==4){
+	if(myAjaxPostrequest.status==200){
+	document.getElementById("result").innerHTML=myAjaxPostrequest.responseText;
+									  }
+  else	{
+   	document.getElementById("myContactForm").innerHTML="An error has occured making the request";
+		}
+										}
+													}
+}
+</script>
+</head>
+<body>
+<br /><br />
+<form id="myContactForm" name="myContactForm" method="post"  >
+<input name="users" id="user" type="text"  value="" class="myInput"/>
+<input name="edition" type="hidden" id="edition" value="<?php echo $path; ?>" />
+<a href="#" onclick="submitFormWithAjax();"><span id="mybutton" >SEARCH</span></a>
+</form>
+
+<br /><br />
+<div id="result" style="margin-left:25px;"><b>Your Searched list will appear here.</b><br /><br /></div><br /><br />

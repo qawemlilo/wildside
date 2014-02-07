@@ -1,0 +1,234 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	background-color:#000;
+	font: 13px/14px  'OpenSansRegular', Helvetica, Arial, sans-serif;
+	color: #8a8989;
+	letter-spacing: .1em;
+	background-image: url(css/wildside_background.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#wrapper{
+	margin: 0 auto;
+	width:960px;
+
+}
+#container{
+	margin:0 auto;
+	width:800px;
+	padding:20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	z-index:100;
+	min-height:365;
+}
+#left_box {
+	width:285px;
+	float:left;
+}
+
+#right_box {
+	width:500px;
+	z-index:999;
+	float: right;
+}
+
+#subscriptionlink{
+	width:150px;
+	float:left;
+	clear:none;
+	margin-right:15px;
+	padding:15px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border:thin solid #424242;
+	margin-bottom:20px;
+}
+
+.textfield {
+	color: #EAEAEA;
+	background:#6C6C6C;
+	border: 2px solid #818181;
+	padding-left: 1px;
+	height:27px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+h1 {
+	color: #99CC00;
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	font: 20px/20px  'OpenSansSemibold', Helvetica, Arial, sans-serif;
+	padding-bottom:10px;
+	border-bottom: 1px dashed #6C6C6C;
+}
+h2 {
+	color: #99CC00;
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	font: 16px/20px  'OpenSansRegular', Helvetica, Arial, sans-serif;
+	padding-bottom:10px;
+	border-bottom: 1px dashed #6C6C6C;
+}
+#bold{
+	font: 13px/14px  'OpenSansSemibold', Helvetica, Arial, sans-serif;
+}
+
+a:link {
+font: 13px/13px  'OpenSansRegular', Helvetica, Arial, sans-serif;
+text-decoration: none;
+color:#DC4F00;
+}
+a:visited {
+font: 13px/13px  'OpenSansRegular', Helvetica, Arial, sans-serif;
+text-decoration: none;
+color: #DC4F00;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+font: 13px/13px  'OpenSansRegular', Helvetica, Arial, sans-serif;
+text-decoration: none;
+color:#BF0722;
+}
+
+#mybutton {
+	color: #000;
+	background:#b1d430;
+	border: 1px solid #818181;
+	padding-left: 1px;
+	height:27px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size:14px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:4px;
+	padding-bottom:6px;
+	cursor: hand;
+}
+
+
+#mybutton:hover {
+	color: #EAEAEA;
+	background:#DC4F00;
+}
+
+#mybutton.reverse {
+	color:#EAEAEA;
+	background:#DC4F00;
+}
+
+#mybutton.reverse:hover {
+	color: #000;
+	background:#b1d430;
+}
+
+	
+
+
+
+.err {
+	color: #FF9900;
+}
+th, tr, td {
+	text-align: left;
+	font: 13px/14px  'OpenSansRegular', Helvetica, Arial, sans-serif;
+}
+
+
+#logo
+{
+	background-image: url(css/wildside_online.jpg);
+	background-repeat: no-repeat;
+	clear: both;
+	float: left;
+	height: 349px;
+	width: 269px;
+	min-height:365;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+
+}
+
+
+input {
+	color: #EAEAEA;
+	background:#6C6C6C;
+	border: 1px solid #818181;
+	padding-left: 5px;
+	height:24px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width:200px;
+	font-size:16px;
+	margin-bottom:5px;
+}
+.inputform {
+	color: #EAEAEA;
+	background:#6C6C6C;
+	border: 1px solid #818181;
+	padding-left: 5px;
+	height:24px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width:200px;
+	font-size:16px;
+	margin-bottom:5px;
+}
+input.submit {
+	color: #EAEAEA;
+	background:#2D2D2D;
+	padding-left: 1px;
+	height:35px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width:100px;
+	font-size:16px;
+	cursor:pointer;
+}
+#pattern{
+	width: 100%;
+	background-image: url(css/bg_pattern.png);
+	background-repeat: repeat;
+	z-index:-999;
+	height:95%;
+}
+#glow{
+	margin:0 auto;
+	width: 100%;
+	background-image: url(css/glow.png);
+	background-repeat: no-repeat;
+	z-index:1;
+	height:600px;
+}
+
+.headline_large{
+	font: 30px/30px  'OpenSansSemibold', Helvetica, Arial, sans-serif;
+	color:#C0C0C0;
+}
+.headline_small{
+	font: 20px/21px  'OpenSansLight', Helvetica, Arial, sans-serif;
+	color:#C0C0C0;
+}
+#headline_smallitalic{
+	font: 20px/21px  'OpenSansLightItalic', Helvetica, Arial, sans-serif;
+	color:#C0C0C0;
+}
+
+#clear{
+	clear:both;
+}
+
+
+
+
+
+	

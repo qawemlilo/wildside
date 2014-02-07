@@ -1,0 +1,37 @@
+<script type="text/javascript">
+function showUser(str)
+{
+if (str=="")
+  {
+  document.getElementById("txtHint").innerHTML="";
+  return;
+  } 
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+    }
+  }
+xmlhttp.open("GET","getsearchpdf.php?q="+str,true);
+xmlhttp.send();
+}
+</script>
+</head>
+<body>
+<br /><br />
+<form>
+<input name="users" type="text" class="myInput" value="" />
+<input type="image" src="css/search.png" name="image" width="126" height="40" onClick="showUser(this.form['users'].value);return false;" style="margin-bottom:-13px; margin-left:15px;">
+</form>
+
+<br /><br />
+<div id="txtHint" style="margin-left:25px;"><b>Your Searched list will appear here.</b><br /><br /></div>

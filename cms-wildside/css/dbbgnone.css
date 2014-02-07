@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F8F8F8;
+}
+
+.containerdb {
+	width: 960px; /* the auto value on the sides, coupled with the width, centers the layout */
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	border:none;
+	border-radius:0px;
+	-moz-box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+	-webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 01);
+	box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+	}

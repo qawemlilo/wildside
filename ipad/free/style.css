@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+body {
+	-webkit-text-size-adjust:none;
+	background-color:#181818;
+}
+
+.swipe {
+  padding-bottom:0px;
+  position:relative;
+  z-index:1;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}
+.swipe li div, .swipe div div div {
+  padding:0px;
+  -webkit-transform: translateZ(0);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}
+
+
+.displayed {
+display: block;
+}
+	
+.displayed1 {
+display: none;
+}
+IMG{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:86%;
+}
